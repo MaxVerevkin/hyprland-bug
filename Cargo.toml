@@ -1,0 +1,9 @@
+[package]
+name = "hyprland-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wayrs-client = "0.12"
+wayrs-protocols = { version = "0.12", features = ["xdg-shell"] }
+wayrs-utils = { version = "0.12", features = ["shm_alloc"] }
